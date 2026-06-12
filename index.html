@@ -1,0 +1,476 @@
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>DailyJobs - Part Time Jobs</title>
+
+<meta name="description" content="Find flexible part time jobs and remote opportunities with DailyJobs. Apply online today and start earning.">
+<meta name="keywords" content="Part Time Jobs, Remote Jobs, DailyJobs, Online Jobs, Work From Home">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+<style>
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    font-family:'Poppins',sans-serif;
+    background:#f5f7fb;
+    color:#222;
+    overflow-x:hidden;
+}
+
+/* HERO SECTION */
+
+.hero{
+    position:relative;
+    width:100%;
+    min-height:100vh;
+    background:
+    linear-gradient(rgba(0,0,0,0.65),rgba(0,0,0,0.65)),
+    url('https://images.unsplash.com/photo-1521791136064-7986c2920216?q=80&w=1400&auto=format&fit=crop');
+    background-size:cover;
+    background-position:center;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    text-align:center;
+    padding:40px 20px;
+}
+
+.hero-content{
+    max-width:800px;
+    color:white;
+}
+
+.hero h1{
+    font-size:58px;
+    margin-bottom:20px;
+    font-weight:700;
+}
+
+.hero p{
+    font-size:20px;
+    margin-bottom:35px;
+    line-height:1.8;
+}
+
+.cta-btn{
+    display:inline-block;
+    padding:18px 40px;
+    background:#ffb703;
+    color:#000;
+    border-radius:10px;
+    text-decoration:none;
+    font-size:18px;
+    font-weight:600;
+    transition:0.3s;
+}
+
+.cta-btn:hover{
+    background:#ffd166;
+    transform:translateY(-4px);
+}
+
+/* FEATURES */
+
+.container{
+    width:90%;
+    max-width:1200px;
+    margin:auto;
+}
+
+.features{
+    padding:90px 0;
+}
+
+.section-title{
+    text-align:center;
+    font-size:40px;
+    margin-bottom:60px;
+    color:#111827;
+}
+
+.feature-grid{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(260px,1fr));
+    gap:30px;
+}
+
+.card{
+    background:white;
+    border-radius:18px;
+    overflow:hidden;
+    box-shadow:0 5px 20px rgba(0,0,0,0.08);
+    transition:0.3s;
+}
+
+.card:hover{
+    transform:translateY(-8px);
+}
+
+.card img{
+    width:100%;
+    height:220px;
+    object-fit:cover;
+}
+
+.card-content{
+    padding:25px;
+}
+
+.card-content h3{
+    margin-bottom:15px;
+    color:#2563eb;
+}
+
+.card-content p{
+    color:#555;
+    line-height:1.7;
+}
+
+/* STATS SECTION */
+
+.stats{
+    background:#111827;
+    padding:80px 20px;
+    color:white;
+}
+
+.stats-grid{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
+    gap:30px;
+    text-align:center;
+}
+
+.stat-box h2{
+    font-size:45px;
+    color:#ffb703;
+}
+
+.stat-box p{
+    margin-top:10px;
+    font-size:18px;
+}
+
+/* APPLY SECTION */
+
+.apply{
+    padding:100px 20px;
+    background:
+    linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)),
+    url('https://images.unsplash.com/photo-1504384308090-c894fdcc538d?q=80&w=1400&auto=format&fit=crop');
+    background-size:cover;
+    background-position:center;
+    text-align:center;
+    color:white;
+}
+
+.apply h2{
+    font-size:45px;
+    margin-bottom:20px;
+}
+
+.apply p{
+    max-width:700px;
+    margin:auto;
+    margin-bottom:35px;
+    line-height:1.8;
+}
+
+/* INFO PAGES */
+
+.info-section{
+    background:white;
+    padding:70px 20px;
+    border-top:1px solid #eee;
+}
+
+.info-section h2{
+    margin-bottom:20px;
+    color:#2563eb;
+}
+
+.info-section p{
+    color:#555;
+    line-height:1.9;
+}
+
+/* FOOTER */
+
+footer{
+    background:#0f172a;
+    color:white;
+    padding:40px 20px;
+}
+
+.footer-links{
+    display:flex;
+    justify-content:center;
+    gap:25px;
+    flex-wrap:wrap;
+    margin-bottom:20px;
+}
+
+.footer-links a{
+    color:white;
+    text-decoration:none;
+}
+
+.footer-links a:hover{
+    color:#ffb703;
+}
+
+.footer-text{
+    text-align:center;
+    color:#cbd5e1;
+}
+
+/* MOBILE */
+
+@media(max-width:768px){
+
+.hero h1{
+    font-size:38px;
+}
+
+.hero p{
+    font-size:17px;
+}
+
+.section-title{
+    font-size:32px;
+}
+
+.apply h2{
+    font-size:34px;
+}
+
+}
+
+</style>
+</head>
+
+<body>
+
+<!-- HERO -->
+
+<section class="hero">
+
+    <div class="hero-content">
+
+        <h1>DailyJobs Part Time Careers</h1>
+
+        <p>
+            Discover flexible online and remote part time jobs.
+            Start earning from home with trusted DailyJobs opportunities.
+        </p>
+
+        <a href="https://www.af9m8trk.com/85N11AS3/QLQ11Y4B/" class="cta-btn" target="_blank">
+            Apply Now
+        </a>
+
+    </div>
+
+</section>
+
+<!-- FEATURES -->
+
+<section class="features">
+
+    <div class="container">
+
+        <h2 class="section-title">Why People Choose DailyJobs</h2>
+
+        <div class="feature-grid">
+
+            <div class="card">
+
+                <img src="https://images.unsplash.com/photo-1522202176988-66273c2fd55f?q=80&w=1200&auto=format&fit=crop" alt="Flexible Work">
+
+                <div class="card-content">
+
+                    <h3>Flexible Work Schedule</h3>
+
+                    <p>
+                        Choose your own work hours and enjoy the freedom of flexible part time opportunities.
+                    </p>
+
+                </div>
+
+            </div>
+
+            <div class="card">
+
+                <img src="https://images.unsplash.com/photo-1498050108023-c5249f4df085?q=80&w=1200&auto=format&fit=crop" alt="Remote Jobs">
+
+                <div class="card-content">
+
+                    <h3>Remote Opportunities</h3>
+
+                    <p>
+                        Access work from home and online job opportunities from multiple industries.
+                    </p>
+
+                </div>
+
+            </div>
+
+            <div class="card">
+
+                <img src="https://images.unsplash.com/photo-1556740749-887f6717d7e4?q=80&w=1200&auto=format&fit=crop" alt="Easy Apply">
+
+                <div class="card-content">
+
+                    <h3>Quick Online Apply</h3>
+
+                    <p>
+                        Fast and simple application process with instant access to new opportunities.
+                    </p>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+<!-- STATS -->
+
+<section class="stats">
+
+    <div class="container">
+
+        <div class="stats-grid">
+
+            <div class="stat-box">
+                <h2>25K+</h2>
+                <p>Job Seekers</p>
+            </div>
+
+            <div class="stat-box">
+                <h2>10K+</h2>
+                <p>Remote Jobs</p>
+            </div>
+
+            <div class="stat-box">
+                <h2>100%</h2>
+                <p>Mobile Friendly</p>
+            </div>
+
+            <div class="stat-box">
+                <h2>24/7</h2>
+                <p>Online Access</p>
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+<!-- APPLY -->
+
+<section class="apply">
+
+    <h2>Start Your Online Career Today</h2>
+
+    <p>
+        Join thousands of users discovering flexible income opportunities through DailyJobs.
+    </p>
+
+    <a href="https://www.af9m8trk.com/85N11AS3/QLQ11Y4B/" class="cta-btn" target="_blank">
+        Apply Now
+    </a>
+
+</section>
+
+<!-- PRIVACY POLICY -->
+
+<section class="info-section" id="privacy">
+
+    <div class="container">
+
+        <h2>Privacy Policy</h2>
+
+        <p>
+            We value your privacy and are committed to protecting your personal information.
+            Information collected through this website may be used to improve user experience
+            and provide relevant opportunities. We never sell personal information to third parties.
+        </p>
+
+    </div>
+
+</section>
+
+<!-- TERMS -->
+
+<section class="info-section" id="terms">
+
+    <div class="container">
+
+        <h2>Terms & Conditions</h2>
+
+        <p>
+            By using this website, you agree to our terms and conditions.
+            Job opportunities and earnings may vary depending on location,
+            qualifications, and availability. We reserve the right to update
+            these terms at any time.
+        </p>
+
+    </div>
+
+</section>
+
+<!-- CONTACT -->
+
+<section class="info-section" id="contact">
+
+    <div class="container">
+
+        <h2>Contact Us</h2>
+
+        <p>
+            For support and inquiries, contact our support team anytime.
+        </p>
+
+        <p>
+            support@dailyjobs-careers.com
+        </p>
+
+    </div>
+
+</section>
+
+<!-- FOOTER -->
+
+<footer>
+
+    <div class="footer-links">
+
+        <a href="#privacy">Privacy Policy</a>
+        <a href="#terms">Terms & Conditions</a>
+        <a href="#contact">Contact Us</a>
+
+    </div>
+
+    <div class="footer-text">
+
+        © 2026 DailyJobs. All Rights Reserved.
+
+    </div>
+
+</footer>
+
+</body>
+</html>
